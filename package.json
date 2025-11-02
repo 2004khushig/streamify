@@ -1,0 +1,22 @@
+{
+  "name": "streamify",
+  "version": "1.0.0",
+  "description": "Streamify is a full-stack web application for language learners to connect, chat, and practice together. Users can sign up, onboard with their language preferences, find friends, send friend requests, chat in real-time, and start video calls.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2004khushig/streamify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/2004khushig/streamify/issues"
+  },
+  "homepage": "https://github.com/2004khushig/streamify#readme"
+}
